@@ -1,0 +1,21 @@
+/* Paleta de colores vars */
+*{
+  --colorPrimary: #fed049;
+  --colorSecondary: #007580;
+  --colorThird: #282846;
+  --colorBack: #d8ebe4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

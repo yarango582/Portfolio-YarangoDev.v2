@@ -1,0 +1,29 @@
+.banner {
+    width: 100%;
+}
+
+.container-banner {
+    margin-top: 0.5%;
+    background: #d8ebe4;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 3000px;
+}
+
+.banner-begin {
+    padding: 0;
+    background: var(--colorSecondary);
+    width: 47vw;
+    height: 100vh;
+    transform: translate(-50%, 0%) matrix(1,0,0,1,0,0);
+    transition: 1s;
+}
+
+.banner-end {
+    padding: 0;
+    background: var(--colorSecondary);
+    width: 90vw;
+    height: 110vh;
+    transform: translate(0%, 0%) matrix(1,0,0,1,0,0);
+    transition: 1s;
+}
