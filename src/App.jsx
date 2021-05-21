@@ -1,9 +1,10 @@
-import '@fortawesome/fontawesome-free/js/all';
 import './css/App.css';
+import '@fortawesome/fontawesome-free/js/all';
+
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import { useEffect, useState } from 'react';
 
+import { useEffect, useState } from 'react';
 
 const App = () => {
     

@@ -53,7 +53,7 @@
 }
 
 .banner__button-menu:hover {
-    color: var(--colorPrimary);
+    color: var(--colorSecondary);
 }
 
 .banner__button-menu-icon {
@@ -73,4 +73,20 @@
     right: 40%;
     top: 50%;
     z-index: 1;
+}
+
+.container__arrow-up {
+    position: absolute;
+    right: 5%;
+    bottom: -60%;
+}
+
+.container__arrow-up_a {
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.container__arrow-up_a:hover {
+    color: var(--colorPrimary);
 }

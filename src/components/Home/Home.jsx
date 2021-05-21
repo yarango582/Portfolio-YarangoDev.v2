@@ -1,5 +1,6 @@
 import './Home.css';
 import Presentation from './Presentation/Presentation';
+import Footer from '../Footer/Footer';
 
 const Home = ({scroll, containerTarget, bannerOutText}) => {
 
@@ -42,17 +43,25 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
                 <a href='/#' className='banner__button-menu' onClick={showMenu}>
                     <i className="fas fa-bars banner__button-menu-icon"></i>
                 </a>
+                {/* Presentacion oculta */}
                 <div className='banner-content-container'>
                     <Presentation/>
                 </div>
+                {/* Mensaje principal */}
                 <div className='banner-out-text' id='banner-out-text'>
                     <h1>
                         Welcome to my portfolio
                     </h1>
                 </div>
-                <div className='container-fluid banner-begin' id='container-fluid'>
+                {/* Banner principal */}
+                <div className='container-fluid banner-begin' id='container-fluid'></div>
+                <div className='container__arrow-up'>
+                    <a href="/#" className='container__arrow-up_a'>
+                        <i className="fas fa-arrow-up container__arrow_up_icon"></i>
+                    </a>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 
