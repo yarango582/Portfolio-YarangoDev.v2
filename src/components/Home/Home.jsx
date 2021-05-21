@@ -1,7 +1,7 @@
-import './Banner.css';
+import './Home.css';
 import Presentation from './Presentation/Presentation';
 
-const Banner = ({scroll, containerTarget, bannerOutText}) => {
+const Home = ({scroll, containerTarget, bannerOutText}) => {
 
     
     const stateBanner = {
@@ -37,8 +37,8 @@ const Banner = ({scroll, containerTarget, bannerOutText}) => {
     }
 
     return(
-        <div className='banner'>
-            <div className='banner-container'>
+        <div className='home'>
+            <div className='home-container'>
                 <a href='/#' className='banner__button-menu' onClick={showMenu}>
                     <i className="fas fa-bars banner__button-menu-icon"></i>
                 </a>
@@ -58,4 +58,4 @@ const Banner = ({scroll, containerTarget, bannerOutText}) => {
 
 }
 
-export default Banner;
+export default Home;

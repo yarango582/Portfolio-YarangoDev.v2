@@ -1,7 +1,7 @@
 import '@fortawesome/fontawesome-free/js/all';
 import './css/App.css';
 import Header from './components/Header/Header';
-import Banner from './components/Banner/Banner';
+import Home from './components/Home/Home';
 import { useEffect, useState } from 'react';
 
 
@@ -23,7 +23,7 @@ const App = () => {
     return(
         <div className='container-outPage'>
             <Header/>
-            <Banner 
+            <Home 
                 scroll={scrollYOffset} 
                 containerTarget={bannerTarget}
                 bannerOutText={bannerOutText}

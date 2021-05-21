@@ -1,19 +1,19 @@
-.banner {
+.home {
     width: 100%;
 }
 
-.banner-container {
+.home-container {
     margin-top: 0.5%;
     background: var(--colorBack);
     width: 95%;
     margin-left: 2.5%;
-    height: 3000px;
+    height: 1500px;
 }
 
 .banner-begin {
     position: relative;
     padding: 0;
-    background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorThird));
+    background: linear-gradient(50deg, var(--colorPrimary) 50%, var(--colorThird));
     width: 47vw;
     height: 100vh;
     transform: translate(-50%, 0%) matrix(1,0,0,1,0,0);
@@ -24,12 +24,11 @@
 .banner-end {
     position: relative;
     padding: 0;
-    background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorThird));
+    background: linear-gradient(120deg, var(--colorPrimary) 50%, var(--colorThird));
     width: 90vw;
     height: 110vh;
     transform: translate(0%, 0%) matrix(1,0,0,1,0,0);
-    transition: 1s;
-
+    transition: 2s;
 }
 
 .banner-show-menu {
