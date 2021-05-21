@@ -2,28 +2,80 @@
     width: 100%;
 }
 
-.container-banner {
+.banner-container {
     margin-top: 0.5%;
-    background: #d8ebe4;
+    background: var(--colorBack);
     width: 95%;
     margin-left: 2.5%;
     height: 3000px;
 }
 
 .banner-begin {
+    position: relative;
     padding: 0;
     background: var(--colorSecondary);
     width: 47vw;
     height: 100vh;
     transform: translate(-50%, 0%) matrix(1,0,0,1,0,0);
     transition: 1s;
+
 }
 
 .banner-end {
+    position: relative;
     padding: 0;
     background: var(--colorSecondary);
     width: 90vw;
     height: 110vh;
     transform: translate(0%, 0%) matrix(1,0,0,1,0,0);
     transition: 1s;
+
+}
+
+.banner-show-menu {
+    position: relative;
+    padding: 0;
+    background: var(--colorSecondary);
+    width: 90vh;
+    height: 100vh;
+    transform: translate(50%, 0%) matrix(1,0,0,1,0,0);
+    transition: 1s;
+
+}
+
+.banner__button-menu {
+    position: absolute;
+    z-index: 1;
+    left: 1.5%;
+    top: 50%;
+    border: none;
+    text-decoration: none;
+    color: var(--colorThird);
+}
+
+.banner__button-menu:hover {
+    color: var(--colorPrimary);
+}
+
+.banner__button-menu-icon {
+    font-size: 3em;
+}
+
+.banner-content-container {
+    position: absolute;
+    left: 5%;
+    right: 60%;
+    bottom: 5%;
+    top: 15%;
+}
+
+.banner-out-text {
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    z-index: 1;
+}
+
+.banner-out-text >h1 {
+    font-variant: small-caps;
 }

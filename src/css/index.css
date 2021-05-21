@@ -6,6 +6,18 @@
   --colorBack: #d8ebe4;
 }
 
+/* Helpers Start*/
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Helpers End */
+
 body {
   margin: 0;
   padding: 0;

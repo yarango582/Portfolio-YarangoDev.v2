@@ -1,22 +1,55 @@
 import './Banner.css';
+import Presentation from './Presentation/Presentation';
 
-const Banner = ({scroll}) => {
+const Banner = ({scroll, containerTarget, bannerOutText}) => {
 
-    const target = document.getElementById('container-fluid');
     
-    if(target){
+    const stateBanner = {
+        start: 'banner-begin',
+        end: 'banner-end',
+        showMenu: 'banner-show-menu',
+    }
+    
+    if(containerTarget){ 
         if(scroll>0){
-            target.classList.replace('banner-begin', 'banner-end');
-        }else if(scroll<=0 && target.classList[1]==='banner-end'){
-            target.classList.replace('banner-end', 'banner-begin');
-        }   
+            containerTarget.classList.replace(stateBanner.start, stateBanner.end);
+            if(containerTarget.classList[1] === stateBanner.showMenu){
+                containerTarget.classList.replace(stateBanner.showMenu, stateBanner.end)
+            }  
+        }else if(scroll<=0 && containerTarget.classList[1]===stateBanner.end){
+            containerTarget.classList.replace(stateBanner.end, stateBanner.start);
+        }  
+    }
+    
+    const showMenu = () => {
+        for(let i of containerTarget.classList.values()){
+            if(i === stateBanner.start){
+                containerTarget.classList.replace(i, stateBanner.showMenu);
+                bannerOutText.classList.add('hide');
+                bannerOutText.classList.remove('show');
+            }else if(i === stateBanner.showMenu) {
+                containerTarget.classList.replace(i, stateBanner.start);
+                bannerOutText.classList.remove('hide');
+                bannerOutText.classList.add('show');
+            }
+        }
     }
 
     return(
         <div className='banner'>
-            <div className='container-banner'>
+            <div className='banner-container'>
+                <a href='/#' className='banner__button-menu' onClick={showMenu}>
+                    <i className="fas fa-bars banner__button-menu-icon"></i>
+                </a>
+                <div className='banner-content-container'>
+                    <Presentation/>
+                </div>
+                <div className='banner-out-text' id='banner-out-text'>
+                    <h1>
+                        Welcome to my portfolio
+                    </h1>
+                </div>
                 <div className='container-fluid banner-begin' id='container-fluid'>
-                    
                 </div>
             </div>
         </div>
