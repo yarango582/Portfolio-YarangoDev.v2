@@ -4,7 +4,7 @@
 
 .home-container {
     margin-top: 0.5%;
-    background: var(--colorBack);
+    background: var(--colorThird);
     width: 95%;
     margin-left: 2.5%;
     height: 1500px;
@@ -16,9 +16,8 @@
     background: linear-gradient(50deg, var(--colorPrimary) 50%, var(--colorThird));
     width: 47vw;
     height: 100vh;
-    transform: translate(-50%, 0%) matrix(1,0,0,1,0,0);
+    transform: translate(-50.19%, 0%) matrix(1,0,0,1,0,0);
     transition: 1s;
-
 }
 
 .banner-end {
@@ -35,7 +34,7 @@
     position: relative;
     padding: 0;
     background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorThird));
-    width: 90vh;
+    width: 95.3vh;
     height: 100vh;
     transform: translate(50%, 0%) matrix(1,0,0,1,0,0);
     transition: 1s;
@@ -49,11 +48,11 @@
     top: 50%;
     border: none;
     text-decoration: none;
-    color: var(--colorThird);
+    color: orangered;
 }
 
 .banner__button-menu:hover {
-    color: var(--colorSecondary);
+    color: black;
 }
 
 .banner__button-menu-icon {
@@ -62,7 +61,7 @@
 
 .banner-content-container {
     position: absolute;
-    left: 5%;
+    left: 12%;
     right: 60%;
     bottom: 5%;
     top: 15%;
@@ -74,6 +73,9 @@
     top: 50%;
     z-index: 1;
     margin-left: 30%;
+    color: var(--colorBack);
+    font-variant: small-caps;
+    font-weight: bolder;
 }
 
 .container__arrow-up {
@@ -83,7 +85,7 @@
 }
 
 .container__arrow-up_a {
-    color: black;
+    color: orangered;
     font-size: 3em;
     text-decoration: none;
 }

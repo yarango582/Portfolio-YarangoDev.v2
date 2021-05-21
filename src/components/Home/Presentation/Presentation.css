@@ -1,4 +1,14 @@
 
 .container__title {
-    color: var(--colorThrid);
+    color: var(--colorBack);
+    font-variant: small-caps;
+}
+
+.container__presentation {
+    margin-top: 50px;
+}
+
+.container__presentation-text {
+    color: var(--colorBack);
+    font-style: italic;
 }

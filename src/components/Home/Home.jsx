@@ -15,11 +15,15 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
         if(scroll>0){
             containerTarget.classList.replace(stateBanner.start, stateBanner.end);
             containerTarget.classList.add('gradiant');
+            bannerOutText.classList.remove('show');
+            bannerOutText.classList.add('hide');
             if(containerTarget.classList[1] === stateBanner.showMenu){
                 containerTarget.classList.replace(stateBanner.showMenu, stateBanner.end)
             }  
         }else if(scroll<=0 && containerTarget.classList[1]===stateBanner.end){
             containerTarget.classList.replace(stateBanner.end, stateBanner.start);
+            bannerOutText.classList.remove('hide');
+            bannerOutText.classList.add('show');
         }  
     }
     
@@ -52,6 +56,9 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
                     <h1>
                         Welcome to my portfolio
                     </h1>
+                    <h3 className='text-center'>
+                        Scroll down or press menu
+                    </h3>
                 </div>
                 {/* Banner principal */}
                 <div className='container-fluid banner-begin' id='container-fluid'></div>

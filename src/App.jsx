@@ -18,7 +18,6 @@ const App = () => {
         }
         setBannerTarget(document.getElementById('container-fluid'));
         setBannerOutText(document.getElementById('banner-out-text'));
-
     }, [bannerTarget]);
 
     return(
