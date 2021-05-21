@@ -13,7 +13,7 @@
 .banner-begin {
     position: relative;
     padding: 0;
-    background: var(--colorSecondary);
+    background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorThird));
     width: 47vw;
     height: 100vh;
     transform: translate(-50%, 0%) matrix(1,0,0,1,0,0);
@@ -24,7 +24,7 @@
 .banner-end {
     position: relative;
     padding: 0;
-    background: var(--colorSecondary);
+    background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorThird));
     width: 90vw;
     height: 110vh;
     transform: translate(0%, 0%) matrix(1,0,0,1,0,0);
@@ -35,7 +35,7 @@
 .banner-show-menu {
     position: relative;
     padding: 0;
-    background: var(--colorSecondary);
+    background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorThird));
     width: 90vh;
     height: 100vh;
     transform: translate(50%, 0%) matrix(1,0,0,1,0,0);
@@ -75,4 +75,3 @@
     top: 50%;
     z-index: 1;
 }
-

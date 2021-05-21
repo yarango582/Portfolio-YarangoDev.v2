@@ -13,6 +13,7 @@ const Banner = ({scroll, containerTarget, bannerOutText}) => {
     if(containerTarget){ 
         if(scroll>0){
             containerTarget.classList.replace(stateBanner.start, stateBanner.end);
+            containerTarget.classList.add('gradiant');
             if(containerTarget.classList[1] === stateBanner.showMenu){
                 containerTarget.classList.replace(stateBanner.showMenu, stateBanner.end)
             }  
