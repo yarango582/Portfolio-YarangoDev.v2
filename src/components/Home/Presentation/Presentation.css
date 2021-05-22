@@ -1,14 +1,15 @@
 
 .container__title {
     color: var(--colorBack);
-    font-variant: small-caps;
+  
 }
 
 .container__presentation {
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 .container__presentation-text {
     color: var(--colorBack);
     font-style: italic;
+    margin-top: 5%;
 }

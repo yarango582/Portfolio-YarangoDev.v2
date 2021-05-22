@@ -4,7 +4,7 @@ const Presentation = () => {
     return (
         <div className='container'>
             <h2 className='container__title text-center mt-3'>
-                Hi, my name's Yeison Arango 👋👨‍💻 Nice to me you!
+                Hi, my name's Yeison Arango 👋👨‍💻 Nice to meet you!
             </h2>
             <section>
                 <div className='container__presentation'>

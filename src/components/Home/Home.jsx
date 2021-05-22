@@ -1,6 +1,8 @@
 import './Home.css';
+
 import Presentation from './Presentation/Presentation';
 import Footer from '../Footer/Footer';
+import Projects from './Projects/Projects';
 
 const Home = ({scroll, containerTarget, bannerOutText}) => {
 
@@ -62,12 +64,8 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
                 </div>
                 {/* Banner principal */}
                 <div className='container-fluid banner-begin' id='container-fluid'></div>
-                <div className='container__arrow-up'>
-                    <a href="/#" className='container__arrow-up_a'>
-                        <i className="fas fa-arrow-up container__arrow_up_icon"></i>    
-                    </a>
-                </div>
             </div>
+            <Projects/>
             <Footer/>
         </div>
     )

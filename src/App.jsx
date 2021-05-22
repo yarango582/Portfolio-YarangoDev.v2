@@ -1,6 +1,5 @@
 import './css/App.css';
 import '@fortawesome/fontawesome-free/js/all';
-
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 
@@ -13,11 +12,14 @@ const App = () => {
     const [bannerOutText, setBannerOutText] = useState(0);
 
     useEffect(() => {
+       
         window.onscroll = () => {
             setScrollYOffset(window.pageYOffset);
         }
         setBannerTarget(document.getElementById('container-fluid'));
         setBannerOutText(document.getElementById('banner-out-text'));
+
+
     }, [bannerTarget]);
 
     return(

@@ -5,6 +5,11 @@
     height: 50px;
 }
 
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header__title {
     margin-left: 63px;
     padding-top: 20px;
@@ -14,4 +19,15 @@
     color: #282846;
     font-variant: small-caps;
     font-weight: bolder;
+}
+
+.header__datetime {
+    position: absolute;
+    right: 3.5%;
+    top: 3.5%;
+
+}
+
+span:hover {
+    color: orangered;
 }

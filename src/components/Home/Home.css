@@ -3,18 +3,19 @@
 }
 
 .home-container {
+    position: relative;
     margin-top: 0.5%;
-    background: var(--colorThird);
+    background: linear-gradient(180deg, var(--colorThird)96%, var(--colorPrimary));
     width: 95%;
     margin-left: 2.5%;
-    height: 1500px;
+    height: 120vh;
 }
 
 .banner-begin {
     position: relative;
     padding: 0;
     background: linear-gradient(50deg, var(--colorPrimary) 50%, var(--colorThird));
-    width: 47vw;
+    width: 47.2vw;
     height: 100vh;
     transform: translate(-50.19%, 0%) matrix(1,0,0,1,0,0);
     transition: 1s;
@@ -23,7 +24,7 @@
 .banner-end {
     position: relative;
     padding: 0;
-    background: linear-gradient(120deg, var(--colorPrimary) 50%, var(--colorThird));
+    background: linear-gradient(180deg, var(--colorPrimary) 20%, var(--colorThird));
     width: 90vw;
     height: 110vh;
     transform: translate(0%, 0%) matrix(1,0,0,1,0,0);
@@ -34,7 +35,7 @@
     position: relative;
     padding: 0;
     background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorThird));
-    width: 95.3vh;
+    width: 95.6vh;
     height: 100vh;
     transform: translate(50%, 0%) matrix(1,0,0,1,0,0);
     transition: 1s;
@@ -44,11 +45,12 @@
 .banner__button-menu {
     position: absolute;
     z-index: 1;
-    left: 1.5%;
-    top: 50%;
+    left: -1.2%;
+    top: 45vh;
     border: none;
     text-decoration: none;
-    color: orangered;
+    color: #810034;
+    overflow: visible;
 }
 
 .banner__button-menu:hover {
@@ -70,26 +72,10 @@
 .banner-out-text {
     position: absolute;
     right: 40%;
-    top: 50%;
+    top: 40vh;
     z-index: 1;
     margin-left: 30%;
     color: var(--colorBack);
     font-variant: small-caps;
     font-weight: bolder;
-}
-
-.container__arrow-up {
-    position: absolute;
-    right: 5%;
-    bottom: -60%;
-}
-
-.container__arrow-up_a {
-    color: orangered;
-    font-size: 3em;
-    text-decoration: none;
-}
-
-.container__arrow-up_a:hover {
-    color: var(--colorPrimary);
 }
