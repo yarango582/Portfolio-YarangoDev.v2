@@ -16,16 +16,17 @@
 }
 
 .header__title-text {
-    color: #282846;
+    color: var(--colorPrimary);
     font-variant: small-caps;
     font-weight: bolder;
 }
 
 span:hover {
-    color: orangered;
+    color: var(--colorSecondary);
 }
 
 .header__datetime {
+    color: var(--colorPrimary);
     margin-right: 3%;
     margin-top: 1%;
 }

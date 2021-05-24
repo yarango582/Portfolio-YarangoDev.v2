@@ -1,9 +1,9 @@
 /* Paleta de colores vars generales de la app*/
 *{
-  --colorPrimary: #fed049;
-  --colorSecondary: #007580;
-  --colorThird: #282846;
-  --colorBack: #d8ebe4;
+  --colorPrimary: #0a1931;
+  --colorSecondary: #185adb;
+  --colorThird: #ffc947;
+  --colorBack: #feddbe;
 }
 
 /* Helpers Start*/

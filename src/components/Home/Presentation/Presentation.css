@@ -28,5 +28,5 @@
 }
 
 .presentation-content__text--mail:hover {
-    color: var(--colorPrimary);
+    color: var(--colorThird);
 }
