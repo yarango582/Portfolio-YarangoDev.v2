@@ -53,7 +53,7 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
                 <Presentation/>
                 {/* Mensaje principal */}
                 <div className='banner-out-text' id='banner-out-text'>
-                    <h1 className='banner-out-text__title'>
+                    <h1 className='banner-out-text__title text-center'>
                         Welcome to my portfolio
                     </h1>
                     <h5 className='banner-out-text__subtitle text-center'>
