@@ -53,12 +53,12 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
                 <Presentation/>
                 {/* Mensaje principal */}
                 <div className='banner-out-text' id='banner-out-text'>
-                    <h1>
+                    <h1 className='banner-out-text__title'>
                         Welcome to my portfolio
                     </h1>
-                    <h3 className='text-center'>
+                    <h5 className='banner-out-text__subtitle text-center'>
                         Scroll down or press menu
-                    </h3>
+                    </h5>
                 </div>
                 {/* Banner principal */}
                 <div className='container-fluid banner-begin' id='container-fluid'></div>

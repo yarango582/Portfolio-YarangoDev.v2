@@ -25,7 +25,7 @@
 .banner-end {
     position: relative;
     padding: 0;
-    background: linear-gradient(180deg, var(--colorPrimary) 20%, var(--colorSecondary));
+    background: linear-gradient(180deg, var(--colorPrimary) 50%, var(--colorSecondary));
     width: 100%;
     height: 95%;
     transform: translate(0%, 0%) matrix(1,0,0,1,0,0);
@@ -89,9 +89,15 @@
     top: 40vh;
     z-index: 1;
     margin-left: 30%;
-    color: var(--colorThird);
     font-variant: small-caps;
     font-weight: bolder;
     z-index: 2;
 }
 
+.banner-out-text__title {
+    color: var(--colorThird);
+}
+
+.banner-out-text__subtitle {
+    color: var(--colorBack);
+}
