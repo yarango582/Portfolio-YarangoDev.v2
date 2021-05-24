@@ -1,15 +1,32 @@
 
-.container__title {
-    color: var(--colorBack);
-  
+.container-presentation {
+    float: left;
+    width: 50%;
+    height: 80%;
 }
 
-.container__presentation {
-    margin-top: 5%;
+.presentation-title {
+    margin-top: 30%;
 }
 
-.container__presentation-text {
+.presentation-content {
+    padding: 1% 5%;
+}
+
+.presentation-title__text { 
     color: var(--colorBack);
-    font-style: italic;
-    margin-top: 5%;
+}
+
+
+.presentation-content__text { 
+    color: var(--colorBack);
+    text-align: center;
+}
+
+.presentation-content__text--mail {
+    text-decoration: none;
+}
+
+.presentation-content__text--mail:hover {
+    color: var(--colorPrimary);
 }

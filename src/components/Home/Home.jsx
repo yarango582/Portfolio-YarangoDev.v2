@@ -50,9 +50,7 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
                     <i className="fas fa-bars banner__button-menu-icon"></i>
                 </a>
                 {/* Presentacion oculta */}
-                <div className='banner-content-container'>
-                    <Presentation/>
-                </div>
+                <Presentation/>
                 {/* Mensaje principal */}
                 <div className='banner-out-text' id='banner-out-text'>
                     <h1>

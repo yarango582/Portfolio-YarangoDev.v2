@@ -2,24 +2,28 @@ import './Presentation.css';
 
 const Presentation = () => {
     return (
-        <div className='container'>
-            <h2 className='container__title text-center mt-3'>
-                Hi, my name's Yeison Arango 👋👨‍💻 Nice to meet you!
-            </h2>
-            <section>
-                <div className='container__presentation'>
-                    <p className='container__presentation-text'>
-                        I'm a full stack developer with knowledge in Javascript,
-                        React and Node.js amoung others, if you want to know more,
-                        scroll down
-                    </p>
-                    <div className='container__presentation-contact'>
-                        <p className='container__presentation-text text-center'>
-                            Got any questions? <a href="mailto:yeisonarango03@gmail.com">Contact me.</a>
-                        </p>   
+        <div className='container-presentation'>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-12 presentation-column'>
+                        <div className='presentation-title'>
+                            <h2 className='presentation-title__text text-center'>
+                                Hi, my name's Yeison Arango 👋👨‍💻 Nice to meet you!
+                            </h2>
+                        </div>
+                        <div className='presentation-content'>
+                            <p className='presentation-content__text'>
+                                I'm a full stack developer with knowledge in Javascript, 
+                                React and Node.js amoung others, if you want to know more, 
+                                scroll down
+                            </p>
+                            <p className='presentation-content__text'>
+                                Got any questions? <a className='presentation-content__text--mail' href="mailto:yeisonarango03@gmail.com">Contact me.</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     )
 }

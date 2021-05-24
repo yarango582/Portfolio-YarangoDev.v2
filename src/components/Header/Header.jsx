@@ -9,12 +9,9 @@ const Header = () => {
 
     useEffect(() => {
 
-        const invertal = setInterval(()=> {
+        setInterval(()=> {
             setDate(getDateTime());
         },0)
-        window.onload = () => {
-            clearInterval(invertal);
-        }
         
     }, [date]);
 
