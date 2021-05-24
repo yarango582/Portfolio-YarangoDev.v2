@@ -11,6 +11,7 @@
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    padding-top: 2.5%;
 }
 
 .container-contact__text-title {
@@ -36,4 +37,20 @@
 
 .arrow-up-container__link:hover {
     color: var(--colorThird);
+}
+
+.contact-input {
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+}
+
+.btn-sendMessage {
+    background: var(--colorBack);
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.btn-sendMessage:hover {
+    background: var(--colorThird);
 }

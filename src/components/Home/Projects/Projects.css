@@ -4,7 +4,6 @@
     margin-left: 2.5%;
     width: 95%;
     background: linear-gradient(180deg, var(--colorPrimary)50%, var(--colorSecondary));
-    padding: 2%;
 }
 
 .container-projects__text {
