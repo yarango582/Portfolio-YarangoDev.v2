@@ -45,13 +45,15 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
 
     return(
         <div className='home'>
+            {/* Presentacion principal */}
             <div className='home-container'>
+                {/* Icono de menu */}
                 <a href='/#' className='banner__button-menu' onClick={showMenu}>
                     <i className="fas fa-bars banner__button-menu-icon"></i>
                 </a>
                 {/* Presentacion oculta */}
                 <Presentation/>
-                {/* Mensaje principal */}
+                {/* Mensaje principal Welcome*/}
                 <div className='banner-out-text' id='banner-out-text'>
                     <h1 className='banner-out-text__title text-center'>
                         Welcome to my portfolio
@@ -60,10 +62,12 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
                         Scroll down or press menu
                     </h5>
                 </div>
-                {/* Banner principal */}
+                {/* Banner principal (tipo cortina)*/}
                 <div className='container-fluid banner-begin' id='container-fluid'></div>
             </div>
+            {/* Proyectos */}
             <Projects/>
+            {/* Pie de pagina */}
             <Footer/>
         </div>
     )
