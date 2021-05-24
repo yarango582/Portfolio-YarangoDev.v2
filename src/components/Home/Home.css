@@ -4,7 +4,7 @@
 
 .home-container {
     position: relative;
-    background: linear-gradient(180deg, var(--colorThird)96%, var(--colorPrimary));
+    background: linear-gradient(180deg, var(--colorSecondary)96%, var(--colorPrimary));
     width: 95%;
     margin-left: 2.5%;
     height: 100vh;
@@ -13,7 +13,7 @@
 .banner-begin {
     position: relative;
     padding: 0;
-    background: linear-gradient(50deg, var(--colorPrimary) 50%, var(--colorThird));
+    background: linear-gradient(50deg, var(--colorPrimary) 50%, var(--colorSecondary));
     width: 50%;
     height: 95%;
     transform: translate(-50%, 0%) matrix(1,0,0,1,0,0);
@@ -25,7 +25,7 @@
 .banner-end {
     position: relative;
     padding: 0;
-    background: linear-gradient(180deg, var(--colorPrimary) 20%, var(--colorThird));
+    background: linear-gradient(180deg, var(--colorPrimary) 20%, var(--colorSecondary));
     width: 100%;
     height: 95%;
     transform: translate(0%, 0%) matrix(1,0,0,1,0,0);
@@ -37,7 +37,7 @@
 .banner-show-menu {
     position: relative;
     padding: 0;
-    background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorThird));
+    background: linear-gradient(60deg, var(--colorPrimary) 50%, var(--colorSecondary));
     width: 50%;
     height: 95%;
     transform: translate(50%, 0%) matrix(1,0,0,1,0,0);
@@ -56,7 +56,7 @@
         top: 45vh;
         border: none;
         text-decoration: none;
-        color: #810034;
+        color: var(--colorThird);
         overflow: visible;
     }
 }
@@ -70,7 +70,7 @@
         top: 45vh;
         border: none;
         text-decoration: none;
-        color: #810034;
+        color: var(--colorThird);
         overflow: visible;
     }
 }

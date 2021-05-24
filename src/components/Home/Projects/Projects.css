@@ -3,7 +3,7 @@
     position: relative;
     margin-left: 2.5%;
     width: 95%;
-    background: linear-gradient(180deg, var(--colorPrimary)50%, var(--colorThird));
+    background: linear-gradient(180deg, var(--colorPrimary)50%, var(--colorSecondary));
 }
 
 .container-projects__text {

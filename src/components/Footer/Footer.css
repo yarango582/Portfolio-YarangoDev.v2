@@ -13,4 +13,5 @@
     position: absolute;
     top: 25%;
     font-variant: small-caps;
+    color: var(--colorThird);
 }
