@@ -8,7 +8,7 @@ const Presentation = () => {
                     <div className='col-12 presentation-column'>
                         <div className='presentation-title'>
                             <h2 className='presentation-title__text text-center'>
-                                Hi, my name's Yeison Arango 👋👨‍💻 Nice to meet you!
+                                Hello, my name is Yeison Arango 👋👨‍💻 Nice to meet you!
                             </h2>
                         </div>
                         <div className='presentation-content'>

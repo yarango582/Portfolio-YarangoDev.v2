@@ -3,6 +3,8 @@ import './Home.css';
 import Presentation from './Presentation/Presentation';
 import Footer from '../Footer/Footer';
 import Projects from './Projects/Projects';
+import About from './About/About';
+import Contact from './Contact/Contact';
 
 const Home = ({scroll, containerTarget, bannerOutText}) => {
 
@@ -67,6 +69,10 @@ const Home = ({scroll, containerTarget, bannerOutText}) => {
             </div>
             {/* Proyectos */}
             <Projects/>
+            {/* Acerca de mi */}
+            <About/>
+            {/* Contacto */}
+            <Contact/>
             {/* Pie de pagina */}
             <Footer/>
         </div>

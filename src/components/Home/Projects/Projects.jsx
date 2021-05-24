@@ -1,4 +1,5 @@
 import './Projects.css';
+import Cards from './Cards/Cards';
 
 const Projects = () => {
 
@@ -6,13 +7,10 @@ const Projects = () => {
     <div className='container-projects'>
         <div className='container-projects__text'>
             <p className='container-projects__text-title'>
-                Projects
+                My Projects
             </p>
         </div>
-        <div className='container-cards'>
-            <div className='container-cards__card'>
-            </div>
-        </div>
+        <Cards/>
     </div>
     )
 

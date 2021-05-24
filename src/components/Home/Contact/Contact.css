@@ -1,0 +1,39 @@
+
+.container-contact { 
+    position: relative;
+    margin-left: 2.5%;
+    width: 95%;
+    background: linear-gradient(180deg, var(--colorPrimary)50%, var(--colorSecondary));
+}
+
+.container-contact__text {
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.container-contact__text-title {
+    color: var(--colorThird);
+    text-transform: uppercase;
+}
+
+.container-cards {
+    height: 1000px;
+}
+
+.arrow-up-container { 
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    padding: 1%;
+}
+
+.arrow-up-container__link {
+    color: var(--colorBack);
+    font-size: 3em;
+}
+
+.arrow-up-container__link:hover {
+    color: var(--colorThird);
+}
