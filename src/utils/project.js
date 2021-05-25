@@ -29,15 +29,15 @@ export default class Project{
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
         }
         let servidorNode = {
-            name: 'Servidor Auth - Node',
-            description: 'Servidor Auth, JWT, Node, Express, Babel, API',
+            name: 'Server Auth - Node',
+            description: 'Server Auth, JWT, Node, Express, Babel, API',
             categorie: 'API REST',
             url: 'https://github.com/yarango582/servidor_node',
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
         }
         let rickAndMortyApp = {
             name: 'Rick And Morty App',
-            description: 'Consumo de api rick and morty - React',
+            description: 'Project Rick And Morty Api - React',
             categorie: 'API REST',
             url: 'https://rickandmortyapp-yarangodev.netlify.app/',
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
