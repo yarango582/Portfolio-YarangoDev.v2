@@ -20,7 +20,7 @@
 }
 
 .container-cards {
-    height: 1000px;
+    height: 100%;
 }
 
 .arrow-up-container { 
@@ -53,4 +53,19 @@
 
 .btn-sendMessage:hover {
     background: var(--colorThird);
+}
+
+/* TextArea pequeno*/
+@media (max-width: 675px) {
+    textarea {
+        width: 60%;
+    }
+}
+/* TextArea grande */
+@media (min-width: 676px) {
+
+    textarea {
+        width: 60%;
+    }
+    
 }

@@ -30,3 +30,11 @@
 .presentation-content__text--mail:hover {
     color: var(--colorThird);
 }
+
+.download-cv-file {
+    text-decoration: none;
+}
+
+.download-cv-file:hover {
+    color: var(--colorThird);
+}

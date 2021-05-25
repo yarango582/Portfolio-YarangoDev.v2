@@ -3,6 +3,7 @@
     position: relative;
     margin-left: 2.5%;
     width: 95%;
+    padding-right: 2%;
     background: linear-gradient(180deg, var(--colorPrimary)50%, var(--colorSecondary));
 }
 

@@ -1,4 +1,5 @@
 import './Presentation.css';
+import myCv from '../../../documents/cv.pdf';
 
 const Presentation = () => {
     return (
@@ -20,6 +21,11 @@ const Presentation = () => {
                             <p className='presentation-content__text'>
                                 Got any questions? <a className='presentation-content__text--mail' href="mailto:yeisonarango03@gmail.com">Contact me.</a>
                             </p>
+                            <div className='download-cv'>
+                                <a className='download-cv-file' href={myCv} target='_blank' rel='noreferrer'>
+                                   Download my CV <i className="fas fa-cloud-download-alt"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

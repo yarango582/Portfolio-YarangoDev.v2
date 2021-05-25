@@ -27,7 +27,7 @@ const Contact = () => {
                                     <input className='contact-input mt-2' type="email" placeholder='Write your email'/>
                                 </div>
                                 <div className='col-12'>
-                                    <textarea className='contact-input mt-2' cols="80" rows="10" placeholder='Write your message here'></textarea>
+                                    <textarea className='contact-input mt-2' cols="20" rows="10" placeholder='Write your message here'></textarea>
                                 </div>
                             </div>
                         </div>
