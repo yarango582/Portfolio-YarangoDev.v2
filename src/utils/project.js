@@ -6,7 +6,7 @@ export default class Project{
         
         let matterApp = {
             name: 'Matter-App',
-            description: `Project based on Matter App, its function is to give and receive feedback on specific skills.
+            description: `Project based on Matter App, its function is to give and receive feedback on specific skills -Js Vanilla.
             `,
             categorie: 'API REST',
             url: 'https://matterapp.netlify.app/',
@@ -14,7 +14,7 @@ export default class Project{
         }
         let triviaApp = {
             name: 'Trivia-App',
-            description: `Project Trivia App.<br>
+            description: `Project Trivia App - Js Vanilla.
             Application to retrieve trivia questions.
             `,
             categorie: 'API REST',
@@ -23,7 +23,7 @@ export default class Project{
         }
         let pokeAPI = {
             name: 'Poke API',
-            description: 'Consumo de api Pokemon - React',
+            description: 'Project Poke Api - React',
             categorie: 'API REST',
             url: 'https://pokedex-yarangodev.netlify.app/',
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
