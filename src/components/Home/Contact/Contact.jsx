@@ -33,7 +33,7 @@ const Contact = () => {
                         </div>
                         <div className="row">
                             <div className='col-12'>
-                                <button className='btn-sendMessage'>Send Message</button>
+                                <button className='btn-sendMessage' onClick={handleClick}>Send Message</button>
                             </div>
                         </div>
                     </form>
