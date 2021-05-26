@@ -10,7 +10,8 @@ const Card = ({name, description, url, img}) => {
                         <div className='card-text-container'>
                              <p className="card-text">{description}</p>
                         </div>
-                        <a href={url} target='_blank' rel='noreferrer' className="btn btn-primary">Go to github or Principal Page</a>
+                        <a type='button' href={url} target='_blank' rel='noreferrer' className="btn btn-primary d-block">Demo</a>
+                        <a type='button' href={url} target='_blank' rel='noreferrer' className="btn btn-primary d-block mt-1">Repository</a>
                     </div>
                 </div>
             </>
