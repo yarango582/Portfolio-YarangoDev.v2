@@ -19,6 +19,7 @@ const Cards = () => {
                                     name={data.name}
                                     description={data.description}
                                     url={data.url}
+                                    urlRepository={data.urlRepository}
                                     img={data.img}
                                 />
                               </div>

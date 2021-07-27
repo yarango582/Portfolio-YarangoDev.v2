@@ -1,5 +1,5 @@
 
-const Card = ({name, description, url, img}) => {
+const Card = ({name, description, url, img, urlRepository}) => {
 
         return (
             <>
@@ -11,7 +11,7 @@ const Card = ({name, description, url, img}) => {
                              <p className="card-text">{description}</p>
                         </div>
                         <a type='button' href={url} target='_blank' rel='noreferrer' className="btn btn-primary d-block">Demo</a>
-                        <a type='button' href={url} target='_blank' rel='noreferrer' className="btn btn-primary d-block mt-1">Repository</a>
+                        <a type='button' href={urlRepository} target='_blank' rel='noreferrer' className="btn btn-primary d-block mt-1">Repository</a>
                     </div>
                 </div>
             </>

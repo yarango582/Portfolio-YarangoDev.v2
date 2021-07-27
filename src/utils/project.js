@@ -10,6 +10,7 @@ export default class Project{
             `,
             categorie: 'API REST',
             url: 'https://matterapp.netlify.app/',
+            urlRepository: 'https://github.com/yarango582/Matter-app',
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
         }
         let triviaApp = {
@@ -19,6 +20,7 @@ export default class Project{
             `,
             categorie: 'API REST',
             url: 'https://trivia-app-yarango.netlify.app',
+            urlRepository: 'https://github.com/yarango582/api-squad-8',
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
         }
         let pokeAPI = {
@@ -26,6 +28,7 @@ export default class Project{
             description: 'Project Poke Api - React',
             categorie: 'API REST',
             url: 'https://pokedex-yarangodev.netlify.app/',
+            urlRepository: 'https://github.com/yarango582/pokedex',
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
         }
         let servidorNode = {
@@ -33,6 +36,7 @@ export default class Project{
             description: 'Server Auth, JWT, Node, Express, Babel, API',
             categorie: 'API REST',
             url: 'https://github.com/yarango582/servidor_node',
+            urlRepository: 'https://github.com/yarango582/servidor_node',
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
         }
         let rickAndMortyApp = {
@@ -40,6 +44,7 @@ export default class Project{
             description: 'Project Rick And Morty Api - React',
             categorie: 'API REST',
             url: 'https://rickandmortyapp-yarangodev.netlify.app/',
+            urlRepository: 'https://github.com/yarango582/RickAndMortyApp',
             img: 'https://image.freepik.com/vector-gratis/desarrolladores-web-dibujados-mano_23-2148819604.jpg'
         }
 

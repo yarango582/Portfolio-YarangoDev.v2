@@ -4,7 +4,6 @@ const Contact = () => {
 
     const handleClick = (event) => {
         event.preventDefault();
-
     }
 
     return(
@@ -24,10 +23,10 @@ const Contact = () => {
                                     <input className='contact-input' type="text" placeholder='Write your name'/>
                                 </div>
                                 <div className='col-12'>
-                                    <input className='contact-input mt-2' type="email" placeholder='Write your email'/>
+                                    <input className='contact-input mt-2' type="email" id='email' placeholder='Write your email'/>
                                 </div>
                                 <div className='col-12'>
-                                    <textarea className='contact-input mt-2' cols="20" rows="10" placeholder='Write your message here'></textarea>
+                                    <textarea className='contact-input mt-2' id='body' cols="20" rows="10" placeholder='Write your message here'></textarea>
                                 </div>
                             </div>
                         </div>
